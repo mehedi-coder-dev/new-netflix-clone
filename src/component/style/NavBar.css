@@ -1,0 +1,26 @@
+img.left_img {
+  width: 80px;
+  left: 20px;
+  position: fixed;
+  object-fit: contain;
+}
+
+img.right_img {
+  width: 30px;
+  object-fit: contain;
+  position: fixed;
+  right: 20px;
+}
+
+.nav {
+  /* display: flex; */
+  justify-content: space-between;
+  padding: 17px;
+  height: 63px;
+  position: fixed;
+  width: 100%;
+  transition: all 0.5s;
+}
+.showNav {
+  background-color: black;
+}

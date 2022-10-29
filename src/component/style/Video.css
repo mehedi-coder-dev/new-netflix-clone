@@ -1,0 +1,29 @@
+.img_div {
+  display: flex;
+  gap: 12px;
+  margin-left: 13px;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.img_div::-webkit-scrollbar {
+  display: none;
+}
+.main_img {
+  width: 198px;
+  cursor: pointer;
+  object-fit: contain;
+  transition: all 0.5s;
+}
+.main_img:hover {
+  transform: scale(1.08);
+}
+.img {
+  max-height: 250px;
+}
+.main {
+  margin-top: 10px;
+  margin-left: 11px;
+  margin-bottom: 14px;
+}

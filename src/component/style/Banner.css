@@ -1,0 +1,39 @@
+.banner {
+  width: 500px;
+  color: white;
+  padding-left: 30px;
+  padding-top: 150px;
+}
+
+h2.description {
+  font-size: 17px;
+  line-height: 22px;
+}
+
+button.button {
+  border: none;
+  outline: none;
+  padding: 12px 23px;
+  font-size: 17px;
+  color: white;
+  background: #00000078;
+  font-weight: 700;
+  border-radius: 2px;
+  margin-right: 10px;
+  transition: all 0.4s;
+  cursor: pointer;
+}
+
+button.button:hover {
+  background-color: white;
+  color: black;
+}
+.main_button {
+  margin: 20px 0;
+}
+.fad_button {
+  background: linear-gradient(180deg, #00000000, #111111d1);
+  width: 100%;
+  height: 257px;
+  bottom: 66px;
+}
